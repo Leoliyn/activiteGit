@@ -13,11 +13,31 @@
      min-width: 375px;
  }
  
- * {
+  {
      font-family: Calibri;
      color: #272727;
      padding: 0;
      margin: 0;
      letter-spacing: -0.05em;
  }
- /*
+
+ nav>ul>li {
+     display: inline-block;
+     border-top: solid 5px #fff;
+     height: 95px;
+     min-width: 75px;
+     line-height: 95px;
+     text-align: center;
+ }
+ 
+ nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: grey;
+     display: block;
+ }
